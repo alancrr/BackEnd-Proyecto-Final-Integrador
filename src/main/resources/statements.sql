@@ -24,8 +24,10 @@ NOMBRE VARCHAR(100) NOT NULL,
 MATRICULA INT NOT NULL);
 
 INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES
- ('Calle falsa',123,'LaCity','City');
+ ('Calle falsa',123,'LaCity','City'),
+ ('CalleTest',666,'CiudadTest','ProvinciaTest');
 INSERT INTO PACIENTES (APELLIDO, NOMBRE, EMAIL, DNI, FECHA_INGRESO, DOMICILIO_ID) VALUES
- ('Roberto','Latortuga','qwe@gmail.com',33333333,'2022-11-15',1);
+ ('Roberto','Latortuga','qwe@gmail.com',33333333,'2022-11-15',1),
+ ('Robert','TheTurtle','email@test.com',12345678,'2022-12-01',2);
 INSERT INTO ODONTOLOGOS (APELLIDO, NOMBRE, MATRICULA) VALUES
 ('Juan','Dentista',123456);

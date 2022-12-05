@@ -24,5 +24,10 @@ public class PacienteController {
         return  pacienteService.listarPacientes();
     }
 
+    @GetMapping
+    public Paciente getPacienteByEmail(String email){
+        return null;
+    }
+
 
 }
